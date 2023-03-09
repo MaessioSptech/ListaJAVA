@@ -14,5 +14,9 @@ public class Exercicio3 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         
+        System.out.println("Digite sua idade: ");
+        Integer idade = leitor.nextInt();
+        
+        System.out.println(String.format("Você já viveu %d dias ou %d meses.", (idade*365),(idade*30)));
     }
 }
