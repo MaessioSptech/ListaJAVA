@@ -36,7 +36,7 @@ public class Exercicio6 {
         
         System.out.println("A menor temperatura da semana foi "+menor);
         System.out.println("A maior temperatura da semana foi "+maior);
-        System.out.println(String.format("A média da temperatura da semana foi ", soma / 7));
+        System.out.println(String.format("A média da temperatura da semana foi %.1f", soma / 7));
         
         Integer qtdMenor = 0;
         
